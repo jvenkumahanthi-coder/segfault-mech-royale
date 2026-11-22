@@ -38,8 +38,8 @@ def unit(dx, dy):
 
 import os
 STRAFE_LO = float(os.environ.get("STRAFE_LO", 0.35))
-STRAFE_HI = float(os.environ.get("STRAFE_HI", 0.8))
-RETREAT_HP = float(os.environ.get("RETREAT_HP", 0.4))
+STRAFE_HI = float(os.environ.get("STRAFE_HI", 0.5))
+RETREAT_HP = float(os.environ.get("RETREAT_HP", 0.55))
 COMBAT_BOOST = int(os.environ.get("COMBAT_BOOST", 1))
 RELOAD_COVER = int(os.environ.get("RELOAD_COVER", 1))
 LOOT_EARLY = float(os.environ.get("LOOT_EARLY", 200))
